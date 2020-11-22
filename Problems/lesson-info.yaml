@@ -1,6 +1,25 @@
 content:
-- Find mistake
-- Publication and its subclasses
-- Users as strings
-- Time as a string
-- Books as strings
+  - Shape hierarchy
+  - IntBinaryOperation
+  - Users and WebSites
+  - Mutable geometric shapes
+  - Find mistake
+  - Publication and its subclasses
+  - Users as strings
+  - Time as a string
+  - Books as strings
+  - Square of a circle
+  - Account Service
+  - Compact strings with AsciiCharSequence
+  - Returning values from an anonymous class
+  - Returning from a method
+  - String reverser
+  - Who is who
+  - Sort out the classes
+  - Field count
+  - Declared fields
+  - Retrieve class name
+  - Getting Superclass
+  - Find the Method
+  - List public fields
+  - List private fields

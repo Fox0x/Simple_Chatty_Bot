@@ -19,5 +19,7 @@
 *.html
 *.iml
 *.xml
+*.yaml
 /gradlew
 /gradlew.bat
+
