@@ -1,27 +1,30 @@
 import java.util.List;
 
 class Sort {
-	public static void sortShapes(Shape[] array,
-	                              List<Shape> shapes,
-	                              List<Polygon> polygons,
-	                              List<Square> squares,
-	                              List<Circle> circles) {
-		// write your code here
-		for (Shape shape : array) {
-			if (shape.getClass() == Shape.class) {
-				shapes.add(shape);
-			}
-			if (shape instanceof Polygon) {
-				polygons.add((Polygon) shape);
-			}
-			if (shape instanceof Square) {
-				squares.add((Square) shape);
-			}
-			if (shape instanceof Circle) {
-				circles.add((Circle) shape);
-			}
-		}
-	}
+    public static void sortShapes(Shape[] array,
+                                  List<Shape> shapes,
+                                  List<Polygon> polygons,
+                                  List<Square> squares,
+                                  List<Circle> circles) {
+        // write your code here
+        for (Shape shape : array) {
+            if (shape.getClass() == Circle.class) {
+                circles.add((Circle) shape);
+            }
+
+            if (shape.getClass() == Square.class) {
+                squares.add((Square) shape);
+            }
+
+            if (shape.getClass() == Polygon.class) {
+                polygons.add((Polygon) shape);
+            }
+
+            if (shape.getClass() == Shape.class) {
+                shapes.add(shape);
+            }
+        }
+    }
 }
 
 //Don't change classes below
